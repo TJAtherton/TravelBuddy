@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBoxPreference
+        android:id="@+id/isSplashEnabled"
+        android:key="isSplashEnabled"
+        android:title="Splash screen enabled"
+        android:summary="Select to enable the splash screen on application startup"
+        android:defaultValue="true"/>
+</PreferenceScreen>

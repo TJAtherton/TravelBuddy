@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color> <!--  #4c226fff -->
+    <color name="colorPrimaryDark">#3F51B5</color> <!--#27226fff -->
+    <color name="colorAccent">#4086ff</color>
+    <color name="linecolour">#8940ff</color>
+
+    <color name="badlinecolour">#ff4040</color>
+    <color name="linecolourLow">#00ff04</color>
+    <color name="linecolourMedium">#ff9c40</color>
+    <color name="linecolourHigh">#d1180f</color>
+
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="surfaceSelection">#4DD0E1</color>
+    <color name="circleBorder">#228B22</color>
+
+</resources>

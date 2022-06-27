@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TravelBuddy</string>
+
+    <string name="facebook_app_id">139993466642549</string>
+    <string name="fb_login_protocol_scheme">fb139993466642549</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="exception_out_of_date">"Tango service outdated"</string>
+    <string name="exception_tango_error">"Tango exception"</string>
+    <string name="exception_tango_invalid">"Tango invalid exception please try again later"</string>
+    <string name="failed_measurement">Cannot place on this surface</string>
+    <string name="failed_permissions">Permissions needed</string>
+    <string name="place_obj"> </string> <!--Tap a flat surface to place your sign. \n\n After placing the sign you can reposition or use two fingers to scale.-->
+
+
+    <!--Replace with your own ad unit id. -->
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+</resources>

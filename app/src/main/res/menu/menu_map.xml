@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/stats"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Stats" />
+    <item android:id="@+id/profile"
+        android:icon="@drawable/forward"
+        android:title="Profile" />
+    <item android:id="@+id/leaderboard"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Leaderboard" />
+    <item android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Share" />
+    <item
+        android:title="Map Type"
+        android:icon="@android:drawable/ic_menu_mapmode" >
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+                <item android:id="@+id/Map_Hybrid"
+                    android:title="Hybrid"
+                    android:orderInCategory="100"
+                     />
+
+                <item android:id="@+id/Map_Satellite"
+                    android:title="Satellite"
+                    android:orderInCategory="100"
+                    />
+
+                <item android:id="@+id/Map_Normal"
+                    android:title="Normal"
+                    android:orderInCategory="100"
+                     />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Social">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+                <item android:id="@+id/FriendsList"
+                    android:title="Friends List"
+                    android:orderInCategory="100"
+                    />
+
+                <item android:id="@+id/FriendRequests"
+                    android:title="Friend Requests"
+                    android:orderInCategory="100"
+                    />
+
+                <item android:id="@+id/invite"
+                    android:title="Invite a Friend"
+                    android:orderInCategory="100"
+                    />
+
+                <item android:id="@+id/addFriend"
+                    android:title="Add a Friend"
+                    android:orderInCategory="100"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>
